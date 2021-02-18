@@ -10,6 +10,10 @@ public inherited sharing class ToDo {
         this.items.add(item);
     }
 
+    public void addItems(Set<String> items) {
+        this.items.addAll(items);
+    }
+
     public void removeItem(String item) {
         this.items.remove(item);
     }
