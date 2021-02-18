@@ -11,7 +11,7 @@ public inherited sharing class ToDo {
     }
 
     public void addItems(Set<String> items) {
-        this.items.addAll(items);
+        this.items.addAll(ittems);
     }
 
     public void removeItem(String item) {
